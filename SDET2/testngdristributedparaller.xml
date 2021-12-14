@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.VtigerGenric.ListnersImplementation"/>
+	</listeners>
+	<test name="TestRunner1">
+		<parameter name="BROWSER" value="Chrome"></parameter>
+		<classes>
+			<class name="vtiger_Testcase.Tc001_CreateOrganizationTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
