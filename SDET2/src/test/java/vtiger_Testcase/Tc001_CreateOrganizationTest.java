@@ -10,7 +10,7 @@ import com.Vtiger_PomClass.OrgnizationInfoPages;
 
 public class Tc001_CreateOrganizationTest extends BaseClass {
 
-	@Test(groups = { "regration", "smoketest" },retryAnalyzer = com.VtigerGenric.RetryAnalyzer.class)
+	@Test(groups = { "regration" },retryAnalyzer = com.VtigerGenric.RetryAnalyzer.class)
 	public void test1() throws InterruptedException, IOException {
 
 		// Organization module case
