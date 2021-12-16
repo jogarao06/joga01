@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="8" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-16T11:28:42 IST" name="Suite" finished-at="2021-12-16T11:30:12 IST" duration-ms="89526">
+  <suite started-at="2021-12-16T13:34:06 IST" name="Suite" finished-at="2021-12-16T13:38:53 IST" duration-ms="286231">
     <groups>
       <group name="regration">
-        <method signature="Tc001_CreateOrganizationTest.test2()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" name="test2" class="vtiger_Testcase.Tc001_CreateOrganizationTest"/>
+        <method signature="Tc001_CreateOrganizationTest.test2()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" name="test2" class="vtiger_Testcase.Tc001_CreateOrganizationTest"/>
+        <method signature="Tc002_CreateOrganizationTest.test2()[pri:0, instance:vtiger_Testcase.Tc002_CreateOrganizationTest@54e1c68b]" name="test2" class="vtiger_Testcase.Tc002_CreateOrganizationTest"/>
+        <method signature="Tc003_CreateContactTest.test31()[pri:0, instance:vtiger_Testcase.Tc003_CreateContactTest@53aac487]" name="test31" class="vtiger_Testcase.Tc003_CreateContactTest"/>
       </group> <!-- regration -->
       <group name="smoketest">
-        <method signature="Tc001_CreateOrganizationTest.test2()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" name="test2" class="vtiger_Testcase.Tc001_CreateOrganizationTest"/>
+        <method signature="Tc001_CreateOrganizationTest.test2()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" name="test2" class="vtiger_Testcase.Tc001_CreateOrganizationTest"/>
+        <method signature="Tc002_CreateOrganizationTest.test2()[pri:0, instance:vtiger_Testcase.Tc002_CreateOrganizationTest@54e1c68b]" name="test2" class="vtiger_Testcase.Tc002_CreateOrganizationTest"/>
+        <method signature="Tc003_CreateContactTest.test31()[pri:0, instance:vtiger_Testcase.Tc003_CreateContactTest@53aac487]" name="test31" class="vtiger_Testcase.Tc003_CreateContactTest"/>
       </group> <!-- smoketest -->
     </groups>
-    <test started-at="2021-12-16T11:28:42 IST" name="Test" finished-at="2021-12-16T11:30:12 IST" duration-ms="89526">
-      <class name="vtiger_Testcase.Tc001_CreateOrganizationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" started-at="2021-12-16T11:28:42 IST" name="setUp" finished-at="2021-12-16T11:28:42 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" started-at="2021-12-16T11:28:42 IST" name="lunchBrowser" finished-at="2021-12-16T11:28:52 IST" duration-ms="9652" status="PASS">
+    <test started-at="2021-12-16T13:34:06 IST" name="Test" finished-at="2021-12-16T13:38:53 IST" duration-ms="286231">
+      <class name="vtiger_Testcase.Tc002_CreateOrganizationTest">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:vtiger_Testcase.Tc002_CreateOrganizationTest@54e1c68b]" started-at="2021-12-16T13:35:49 IST" name="lunchBrowser" finished-at="2021-12-16T13:35:56 IST" duration-ms="6317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,19 +28,81 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" started-at="2021-12-16T11:28:52 IST" name="loginIntoApp" finished-at="2021-12-16T11:29:02 IST" duration-ms="10167" status="PASS">
+        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:vtiger_Testcase.Tc002_CreateOrganizationTest@54e1c68b]" started-at="2021-12-16T13:35:56 IST" name="loginIntoApp" finished-at="2021-12-16T13:36:05 IST" duration-ms="9551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoApp -->
-        <test-method signature="test2()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" started-at="2021-12-16T11:29:02 IST" name="test2" finished-at="2021-12-16T11:30:03 IST" duration-ms="60343" status="PASS">
+        <test-method signature="test2()[pri:0, instance:vtiger_Testcase.Tc002_CreateOrganizationTest@54e1c68b]" started-at="2021-12-16T13:36:05 IST" name="test2" finished-at="2021-12-16T13:36:57 IST" duration-ms="51388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" started-at="2021-12-16T11:30:03 IST" name="logoutFromApp" finished-at="2021-12-16T11:30:07 IST" duration-ms="4233" status="PASS">
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:vtiger_Testcase.Tc002_CreateOrganizationTest@54e1c68b]" started-at="2021-12-16T13:36:57 IST" name="logoutFromApp" finished-at="2021-12-16T13:37:02 IST" duration-ms="5676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@4b0d79fc]" started-at="2021-12-16T11:30:07 IST" name="closeBrowser" finished-at="2021-12-16T11:30:12 IST" duration-ms="4932" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger_Testcase.Tc002_CreateOrganizationTest@54e1c68b]" started-at="2021-12-16T13:37:02 IST" name="closeBrowser" finished-at="2021-12-16T13:37:06 IST" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- vtiger_Testcase.Tc002_CreateOrganizationTest -->
+      <class name="vtiger_Testcase.Tc003_CreateContactTest">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:vtiger_Testcase.Tc003_CreateContactTest@53aac487]" started-at="2021-12-16T13:37:06 IST" name="lunchBrowser" finished-at="2021-12-16T13:37:12 IST" duration-ms="6534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:vtiger_Testcase.Tc003_CreateContactTest@53aac487]" started-at="2021-12-16T13:37:12 IST" name="loginIntoApp" finished-at="2021-12-16T13:37:22 IST" duration-ms="9597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApp -->
+        <test-method signature="test31()[pri:0, instance:vtiger_Testcase.Tc003_CreateContactTest@53aac487]" started-at="2021-12-16T13:37:22 IST" name="test31" finished-at="2021-12-16T13:38:45 IST" duration-ms="82930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test31 -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:vtiger_Testcase.Tc003_CreateContactTest@53aac487]" started-at="2021-12-16T13:38:45 IST" name="logoutFromApp" finished-at="2021-12-16T13:38:49 IST" duration-ms="4425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger_Testcase.Tc003_CreateContactTest@53aac487]" started-at="2021-12-16T13:38:49 IST" name="closeBrowser" finished-at="2021-12-16T13:38:53 IST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- vtiger_Testcase.Tc003_CreateContactTest -->
+      <class name="vtiger_Testcase.Tc001_CreateOrganizationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" started-at="2021-12-16T13:34:06 IST" name="setUp" finished-at="2021-12-16T13:34:06 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" started-at="2021-12-16T13:34:06 IST" name="lunchBrowser" finished-at="2021-12-16T13:34:21 IST" duration-ms="14445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method is-config="true" signature="loginIntoApp()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" started-at="2021-12-16T13:34:21 IST" name="loginIntoApp" finished-at="2021-12-16T13:34:31 IST" duration-ms="10512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApp -->
+        <test-method signature="test2()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" started-at="2021-12-16T13:34:31 IST" name="test2" finished-at="2021-12-16T13:35:41 IST" duration-ms="69533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" started-at="2021-12-16T13:35:41 IST" name="logoutFromApp" finished-at="2021-12-16T13:35:45 IST" duration-ms="4515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtiger_Testcase.Tc001_CreateOrganizationTest@59505b48]" started-at="2021-12-16T13:35:45 IST" name="closeBrowser" finished-at="2021-12-16T13:35:49 IST" duration-ms="3831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
