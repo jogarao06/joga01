@@ -38,6 +38,7 @@ public class Tc002_CreateOrganizationTest extends BaseClass {
 
 		// Search Box
 		orginfpage.searchtext(orgname);
+		Thread.sleep(5000);
 
 		// DropDown Beside Search Box
 		orginfpage.searchfielddrop();
@@ -91,6 +92,7 @@ public class Tc002_CreateOrganizationTest extends BaseClass {
 		orgpag.OrganizationCreateclck();
 		// SearchText
 		orginfpage.searchtext(orgname);
+		Thread.sleep(5000);
 
 		// DropDown
 		orginfpage.searchfielddrop();

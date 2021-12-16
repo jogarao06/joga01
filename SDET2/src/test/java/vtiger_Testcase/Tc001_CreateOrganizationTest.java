@@ -24,9 +24,11 @@ public class Tc001_CreateOrganizationTest extends BaseClass {
 
 		// Go Back to Organization
 		driver.navigate().refresh();
+		
 		orgpag.OrganizationCreateclck();
 		// SearchText
 		orginfpage.searchtext(orgname);
+		Thread.sleep(5000);
 
 		// DropDown
 		orginfpage.searchfielddrop();
@@ -62,6 +64,8 @@ public class Tc001_CreateOrganizationTest extends BaseClass {
 		orgpag.OrganizationCreateclck();
 		// SearchText
 		orginfpage.searchtext(orgname);
+		Thread.sleep(5000);
+
 
 		// DropDown
 		orginfpage.searchfielddrop();

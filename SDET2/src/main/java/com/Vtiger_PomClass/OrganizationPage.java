@@ -105,6 +105,7 @@ public class OrganizationPage {
 	}
 
 	public String accountnamecreating() {// business logic
+		
 		WebElement abc = accountnamecreating;
 		abcd.sendkeydu(abc, orgname);
 		return orgname;
