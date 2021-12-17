@@ -10,7 +10,7 @@ import com.Vtiger_PomClass.OrgnizationInfoPages;
 
 public class Tc002_CreateOrganizationTest extends BaseClass {
 
-	@Test(groups = { "regration","smoketest"})
+	@Test(groups = { "smoketest"})
 	public void test2() throws InterruptedException, IOException {
 		// Organization creating case
 		OrganizationPage orgpag = new OrganizationPage(driver);

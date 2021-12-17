@@ -79,7 +79,7 @@ public class Tc003_CreateContactTest extends BaseClass {
 		System.out.println("Contact  Module Test Case is Verified Tc003");
 	}
 
-	@Test(groups = { "regration", "smoketest" })
+	@Test(groups = { "smoketest" })
 	public void test31() throws InterruptedException, IOException {
 
 		// Creating WebElement Actions

@@ -44,7 +44,7 @@ public class Tc001_CreateOrganizationTest extends BaseClass {
 
 	}
 
-	@Test(groups = { "regration", "smoketest" },retryAnalyzer = com.VtigerGenric.RetryAnalyzer.class)
+	@Test(groups = { "smoketest" },retryAnalyzer = com.VtigerGenric.RetryAnalyzer.class)
 	public void test2() throws InterruptedException, IOException {
 
 		// Organization module case
