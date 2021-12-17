@@ -14,7 +14,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 
 import com.Vtiger_PomClass.HomePage;
 import com.Vtiger_PomClass.Loginpage;
@@ -31,12 +30,15 @@ public class BaseClass {
 		System.out.println("connect DB");
 	}
 
-	@Parameters("BROWSER")
+//	@Parameters("BROWSER")
 	@BeforeClass(alwaysRun = true)
-	public void lunchBrowser(String Browser) throws IOException {
-		if (Browser.equalsIgnoreCase("Chrome")) {
+	public void lunchBrowser() throws IOException {
+//public void lunchBrowser(String Browser) throws IOException {
+		String browser = System.getProperty("BROWSER");
+		System.out.println(browser);
+		if (browser.equalsIgnoreCase("Chrome")) {
 			driver = new ChromeDriver();
-		} else if (Browser.equalsIgnoreCase("Chrome")) {
+		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 		} else {
 			driver = new ChromeDriver();
@@ -48,7 +50,6 @@ public class BaseClass {
 		allActions.maxwindow();
 		allActions.pageLoadTime();
 		sdriver = driver;
-
 	}
 
 	@BeforeMethod(alwaysRun = true)
