@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vtiger_Testcase.Tc001_CreateOrganizationTest">
+      <class name="jdbc_Demo.ExtensrRepo">
         <methods>
-          <include name="test1"/>
-          <include name="logoutFromApp"/>
-          <include name="setUp"/>
-          <include name="test2"/>
-          <include name="loginIntoApp"/>
-          <include name="lunchBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="getTitle1"/>
         </methods>
-      </class> <!-- vtiger_Testcase.Tc001_CreateOrganizationTest -->
+      </class> <!-- jdbc_Demo.ExtensrRepo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

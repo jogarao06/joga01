@@ -17,7 +17,40 @@ public class HomePage {
 
 	@FindBy(xpath = ("//a[text()='Sign Out']")) // r1
 	private WebElement singout; // 2
+	/////////////
 
+	@FindBy(xpath = ("//img[@src='themes/softed/images/menuDnArrow.gif']")) // r1
+	private WebElement Movetomore; // 2
+	
+	
+	@FindBy(name= ("Campaigns")) // r1
+	private WebElement clckCompine; // 2
+	
+	
+	
+	
+    public WebElement getClckCompine() {
+		return clckCompine;
+	}
+    
+    public void clickOnCompaine() {
+    	clckCompine.click();
+		
+	}
+
+	public WebElement getMovetomore() {
+		return Movetomore;
+	}
+    
+    public void movetomore() {
+    	
+    	WebDriverUtil wutil = new WebDriverUtil(driver);
+		wutil.movetoelement(Movetomore);
+		clckCompine.click();
+    	
+    }
+
+	///////////////////
 	public WebElement getMovetosngouimg() {
 		return movetosngouimg;
 	}
@@ -38,6 +71,7 @@ public class HomePage {
 		singout.click();
 
 	}
+	
 	
 
 }

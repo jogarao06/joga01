@@ -25,7 +25,9 @@ public class SampleTestonRuntimeBrowser {
 		} else {
 			driver = new ChromeDriver();
 		}
+		
 		driver.get("url");
+		
 	}
 	
 
