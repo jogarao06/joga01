@@ -1,6 +1,0 @@
-2021-12-30 15:42:36,380  INFO [main] ApplicationUsingLOG4j:25 - connect dataBase
-2021-12-30 15:42:36,460  INFO [main] ApplicationUsingLOG4j:31 - Open Browser
-2021-12-30 15:42:44,870  INFO [main] ApplicationUsingLOG4j:40 - Enter URL
-2021-12-30 15:42:47,557  INFO [main] ApplicationUsingLOG4j:49 - login Application VTiger
-2021-12-30 15:42:57,856  INFO [main] ApplicationUsingLOG4j:60 - close Browser
-2021-12-30 15:42:58,972  INFO [main] ApplicationUsingLOG4j:67 - disconnect Data Base
